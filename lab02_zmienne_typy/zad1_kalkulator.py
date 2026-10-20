@@ -12,4 +12,14 @@
 #
 # Załóż, że druga liczba nie jest zerem (obsługę zera dodasz w labie 03).
 
+
 # TODO: Twój kod poniżej
+liczba1 = float(input("Podaj pierwszą liczbe: "))
+liczba2 = float(input("Podaj drugą liczbe: "))
+print(liczba1, "+", liczba2, "=", liczba1 + liczba2)
+print(liczba1, "-", liczba2, "=", liczba1 - liczba2)
+print(liczba1, "*", liczba2, "=", liczba1 *liczba2)
+print(liczba1, "/", liczba2, "=", liczba1 / liczba2)
+print(liczba1, "//", liczba2, "=", liczba1 // liczba2)
+print(liczba1, "%", liczba2, "=", liczba1 % liczba2)
+print(liczba1, "**", liczba2, "=", liczba1 ** liczba2)
