@@ -16,3 +16,18 @@ import random
 SECRET = int(os.environ.get("SEKRET", random.randint(1, 100)))
 
 # TODO: Twój kod poniżej (pętla while)
+proby = 0
+while True:
+    zgadywana = input("zgadnij liczbę: ")
+    if not zgadywana.isdigit():
+        print("To nie jest liczba")
+        continue
+    zgadywana = int(zgadywana)
+    proby += 1
+    if zgadywana <  SECRET:
+        print("Za mało!")
+    elif zgadywana > SECRET:
+        print("Za dużo!")
+    else:
+        print(f"Brawo! Zgadłeś w {proby} próbach.")
+        break

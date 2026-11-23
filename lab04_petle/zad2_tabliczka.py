@@ -11,3 +11,8 @@
 #   - f"{x:4}" wyrównuje liczbę do 4 znaków
 
 # TODO: Twój kod poniżej
+n = int(input())
+for i in range(1, n + 1):
+    for k in range(1, n + 1):
+        print(f"{i * k:4}", end="")
+    print()

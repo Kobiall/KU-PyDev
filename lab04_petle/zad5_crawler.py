@@ -21,3 +21,4 @@ with open("dane/strona.html", encoding="utf-8") as f:
     html = f.read()
 
 # TODO: Twój kod poniżej
+
